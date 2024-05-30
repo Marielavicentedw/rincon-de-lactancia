@@ -1,0 +1,85 @@
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git init
+Reinitialized existing Git repository in C:/Users/marie/OneDrive/Escritorio/Proyectos/Proyecto coder/.git/
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git add .
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git commit -m "first git"
+On branch principal
+nothing to commit, working tree clean
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git status
+On branch principal
+nothing to commit, working tree clean
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git commit 
+On branch principal
+nothing to commit, working tree clean
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git comit -m "first comit"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git status
+On branch principal
+nothing to commit, working tree clean
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git remoto agregar origen https://github.com/Marielavicentedw/RinconLactancia.git
+ git rama -M principal 
+git push -u origen principal
+git: 'remoto' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+git: 'rama' is not a git command. See 'git --help'.
+
+The most similar command is
+        blame
+remote: Repository not found.
+fatal: repository 'https://github.com/Marielavicentedw/rinon-de-lactancia.git/' not found
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git push
+fatal: The current branch principal has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origen principal
+
+oder (principal)
+$ git remoto agregar origen https://github.com/Marielavicentedw/RinconLactancia.git
+git: 'remoto' is not a git command. See 'git --help'.
+oder (principal)
+$ git remoto agregar origen https://github.com/Marielavicentedw/RinconLactancia.git
+git: 'remoto' is not a git command. See 'git --help'.       
+
+The most similar command is
+        remote
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git remote add origen https://github.com/Marielavicentedw/rincon-de-lactancia.git
+error: remote origen already exists.
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git push -u origen <cambie-la-palabra-que-utilice-anteriormente
+bash: cambie-la-palabra-que-utilice-anteriormente: No such file or directory
+
+marie@Mariela MINGW64 ~/OneDrive/Escritorio/Proyectos/Proyecto coder (principal)
+$ git push -u origen principal
